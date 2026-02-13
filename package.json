@@ -1,0 +1,23 @@
+{
+  "name": "avego-theme",
+  "displayName": "Notepad++ Avego",
+  "description": "Notepad++ Theme by Avego",
+  "version": "0.0.1",
+  "publisher": "avego",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Notepad++ Avego",
+        "uiTheme": "vs",
+        "path": "./themes/notepad-avego-color-theme.json"
+      }
+    ]
+  }
+}
