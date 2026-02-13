@@ -1,16 +1,29 @@
 {
   "name": "avego-theme",
   "displayName": "Notepad++ Avego",
-  "description": "Notepad++ Theme by Avego",
-  "version": "0.0.1",
+  "description": "Accurate recreation of the classic Notepad++ syntax highlighting in Visual Studio Code. The light theme you know and love.",
+  "version": "0.0.2",
   "publisher": "avego",
   "icon": "icon.png",
   "engines": {
-    "vscode": "^1.100.0"
+    "vscode": "^1.85.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "notepad++",
+    "npp",
+    "theme",
+    "light",
+    "classic",
+    "syntax",
+    "avego"
+  ],
+  "galleryBanner": {
+    "color": "#f9f9f9",
+    "theme": "light"
+  },
   "contributes": {
     "themes": [
       {
@@ -19,5 +32,13 @@
         "path": "./themes/notepad-avego-color-theme.json"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avego/avego-vscode-theme"
+  },
+  "homepage": "https://avego.org",
+  "bugs": {
+    "url": "https://github.com/avego/avego-vscode-theme/issues"
   }
 }
